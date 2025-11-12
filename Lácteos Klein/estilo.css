@@ -1,0 +1,167 @@
+body {
+	margin: 0;
+	background-color: #cbd9ef;
+}
+
+header{
+	justify-content: center;
+	background-color: rgb(100, 169, 235);
+	
+
+}
+
+
+#fixo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(180deg, #6facd4, #5ba1cf);
+    z-index: 1000; 
+    text-align: center;
+	}
+
+.logo {
+	 display: block;
+    margin: 0 auto;          
+    width: 100%;             
+    height: auto;            
+    max-width: 600px;        
+    object-fit: contain;     
+    
+   
+}
+
+#titulo{
+    text-align: center;
+    color: navy;
+    font-size: large;
+	font-family: Futura Black BT;
+}
+.titulo2{
+	text-align: center;
+    color: teal;
+    font-size: 18px;
+	font-family: Futura Black BT;
+}
+
+
+.texto{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+.botao{
+	background: #7fcfe7;
+	padding: 12px 30px;
+	border-radius: 25px; 
+	color: #fff;
+	font-weight: bold;
+	box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+
+}
+.botao:hover {
+    transform: scale(1.1); 
+}
+
+.barra {
+	background: linear-gradient(180deg, #6facd4, #5ba1cf);
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	gap: 70px;
+	box-shadow: 0 4px 10px rgba(0,0,0,0.3); 
+    a{
+        color: #fff;
+    }
+  } 
+
+  p{
+	max-width: 900px;
+	font-size: 24px;
+	text-align: center;
+	margin: 0 auto 20px auto;
+  }
+
+.mascote img {
+    width: 250px;
+    height: auto;
+    display: block;
+    margin: 0 auto; 
+}
+.cartao img{
+	display: block;     
+    margin: 20px auto;    
+    width: 350px;         
+    height: auto;   
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2); 
+}
+
+.contatos li, 
+.contatos a, 
+.contatos h3 {
+    color: black;    
+    text-decoration: none;
+	font-size: 22px;
+    padding: 0;          
+    margin: 0 auto;  
+    
+}
+
+.contatoblock{
+    background: #f0f9f9;
+    border: 2px solid teal;
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 350px;
+    margin: 20px auto;
+}
+
+
+
+.produtos li{
+	text-decoration: none;
+	font-size: 20px;
+	color: teal; 
+
+}
+
+
+
+.cardLink {
+    background: #f0f9f9;
+    border: 2px solid teal;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+    max-width: 300px;
+    margin: 20px auto;
+}
+
+.cardLink a {
+    color: teal;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+
+#direitos {
+    background: teal;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    width: 100%;
+    margin-top: 40px;
+    font-size: 14px;
+    border-top: 3px solid #004d4d;
+}
+
+
+

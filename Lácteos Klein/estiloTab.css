@@ -1,0 +1,102 @@
+h1{
+    text-align: center;
+    color: teal;
+}
+body {
+	margin: 10;
+	background-color: #cbd9ef;
+}
+
+header{
+	justify-content: center;
+	background-color: rgb(100, 169, 235);
+
+}
+.botao{
+	background: #7fcfe7;
+	padding: 12px 30px;
+	border-radius: 25px; 
+	color: #fff;
+	font-weight: bold;
+	box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    cursor: pointer;
+
+    transition: transform 0.3s ease;
+
+}
+
+.botao:hover {
+    transform: scale(1.1); 
+}
+
+.barra {
+	background: linear-gradient(180deg, #6facd4, #5ba1cf);
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	gap: 70px;
+	box-shadow: 0 4px 10px rgba(0,0,0,0.3); 
+    a{
+        color: #fff;
+    }
+  } 
+
+
+#fixo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(180deg, #6facd4, #5ba1cf);
+    z-index: 1000; 
+    text-align: center;
+	}
+    
+.logo {
+    display: block;
+    margin: 0 auto;          
+    width: 100%;             
+    height: auto;            
+    max-width: 600px;        
+    object-fit: contain;  
+    }
+    
+
+#tabela td,
+#tabela th{
+    border: 1px solid #14041f;
+    padding: 8px;
+
+}
+#tabela {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;   
+    margin: 0 auto;  
+    
+}
+
+#tabela thead {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: teal;
+    color: rgb(7, 7, 7);
+}
+
+
+#tabela tbody>tr:hover {
+    background-color: rgb(62, 148, 148);
+}
+
+#direitos {
+    background: teal;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    width: 100%;
+    margin-top: 40px;
+    font-size: 20px;
+    border-top: 3px solid #004d4d;
+}
