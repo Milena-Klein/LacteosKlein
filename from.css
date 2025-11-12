@@ -1,0 +1,117 @@
+body {
+	margin: 0;
+	background-color: #cbd9ef;
+}
+
+header{
+	justify-content: center;
+	background-color: rgb(100, 169, 235);
+
+}
+.botao{
+	background: #7fcfe7;
+	padding: 12px 30px;
+	border-radius: 25px; 
+	color: #fff;
+	font-weight: bold;
+	box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    cursor: pointer;
+
+    transition: transform 0.3s ease;
+
+}
+
+.botao:hover {
+    transform: scale(1.1); 
+}
+
+.barra {
+	background: linear-gradient(180deg, #6facd4, #5ba1cf);
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	gap: 70px;
+	box-shadow: 0 4px 10px rgba(0,0,0,0.3); 
+    a{
+        color: #fff;
+    }
+  } 
+
+
+#fixo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(180deg, #6facd4, #5ba1cf); 
+    z-index: 1000; 
+    text-align: center;
+	}
+
+.logo {
+	display: block;
+    margin: 0 auto;          
+    width: 100%;             
+    height: auto;            
+    max-width: 600px;        
+    object-fit: contain;  
+}
+
+.titulo{
+	text-align: center;
+    color: teal;
+    font-size: 18px;
+	font-family: Futura Black BT;
+}
+
+#direitos {
+    background: teal;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    width: 100%;
+    margin-top: 40px;
+    font-size: 20px;
+    border-top: 3px solid #004d4d;
+}
+
+.formulario {
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 2px solid teal;
+    border-radius: 12px;
+    background: #f9fdfd;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+
+.formulario label {
+    font-weight: bold;
+    color: teal;
+}
+
+.formulario input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.botao-form {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: teal;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer; /*cursor muda quando esta em cima do botão*/
+    
+}
+
+.botao-form:hover {
+    background: #006666;
+    transform: scale(1.05);
+}
